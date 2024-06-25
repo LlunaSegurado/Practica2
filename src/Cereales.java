@@ -72,8 +72,8 @@ public class Cereales implements IAlimento{
     public String toString() {
         return "Cereales{" +
                 "Marca: '" + marca + '\'' +
-                ", Precio: " + precio + "€" +
-                ", TipoCereal: '" + tipoCereal + '\'' +
+                ", Precio: " + String.format("%.2f", precio) + "€" +
+                ", Tipo de Cereal: '" + tipoCereal + '\'' +
                 ", Calorias: " + getCalorias() +
                 ", Caducidad: " + caducidad +
                 '}';

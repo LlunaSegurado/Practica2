@@ -110,12 +110,12 @@ public class Vino implements ILiquido, IDescuento, IAlimento {
         return "Vino{" +
                 "Marca: '" + marca + '\'' +
                 ", Tipo de Vino: '" + tipoVino + '\'' +
-                ", Grados de Alcohol: " + gradosAlcohol +
-                ", Precio: " + precio + "€" +
+                ", Grados de Alcohol: " + gradosAlcohol + "%" +
+                ", Precio: " + String.format("%.2f", precio) + "€" +
                 ", Volumen: " + volumen +
                 ", Tipo de Envase: '" + tipoEnvase + '\'' +
-                ", Descuento: " + descuento +
-                ", PrecioDescuento: " + getPrecioDescuento() +
+                ", Descuento: " + descuento  + "%" +
+                ", Precio con Descuento: " + String.format("%.2f", getPrecioDescuento()) + "€" +
                 ", Calorias: " + getCalorias() +
                 ", Caducidad: " + caducidad +
                 '}';
