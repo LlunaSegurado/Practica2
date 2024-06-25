@@ -71,11 +71,11 @@ public class Cereales implements IAlimento{
     @Override
     public String toString() {
         return "Cereales{" +
-                "marca='" + marca + '\'' +
-                ", precio=" + precio +
-                ", tipoCereal='" + tipoCereal + '\'' +
-                ", calorias=" + getCalorias() +
-                ", caducidad=" + caducidad +
+                "Marca: '" + marca + '\'' +
+                ", Precio: " + precio + "€" +
+                ", TipoCereal: '" + tipoCereal + '\'' +
+                ", Calorias: " + getCalorias() +
+                ", Caducidad: " + caducidad +
                 '}';
     }
 }

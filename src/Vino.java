@@ -108,16 +108,16 @@ public class Vino implements ILiquido, IDescuento, IAlimento {
     @Override
     public String toString() {
         return "Vino{" +
-                "Marca='" + marca + '\'' +
-                ", Tipo de Vino='" + tipoVino + '\'' +
-                ", Grados de Alcohol=" + gradosAlcohol +
-                ", Precio=" + precio +
-                ", Volumen=" + volumen +
-                ", Tipo de Envase='" + tipoEnvase + '\'' +
-                ", Descuento=" + descuento +
-                ", PrecioDescuento=" + getPrecioDescuento() +
-                ", Calorias=" + getCalorias() +
-                ", Caducidad=" + caducidad +
+                "Marca: '" + marca + '\'' +
+                ", Tipo de Vino: '" + tipoVino + '\'' +
+                ", Grados de Alcohol: " + gradosAlcohol +
+                ", Precio: " + precio + "€" +
+                ", Volumen: " + volumen +
+                ", Tipo de Envase: '" + tipoEnvase + '\'' +
+                ", Descuento: " + descuento +
+                ", PrecioDescuento: " + getPrecioDescuento() +
+                ", Calorias: " + getCalorias() +
+                ", Caducidad: " + caducidad +
                 '}';
     }
 }
